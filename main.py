@@ -12,8 +12,8 @@ while True:
         if event.type == pygame.QUIT:
             running = False
 
+    screen.fill((0, 0, 10))
     pygame.display.update()
-    screen.fill(0, 0, 40)
     
 
 pygame.quit()
