@@ -49,7 +49,7 @@ while True:
     screen.blit(meteor_surface, meteor_rect)
     screen.blit(laser_surface, laser_rect)
     
-    player_rect.x += player_direction * 5
+    #player_rect.x += player_direction * 5
     screen.blit(player_surface, player_rect)
     
     pygame.display.update()
